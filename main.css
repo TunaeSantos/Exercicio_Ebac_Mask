@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Young Serif', serif;
+}
+form {
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+.campo {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.campo label {
+    width: 150px;
+    font-weight: bold;
+}
+.campo input {
+    flex: 1;
+    padding: 7px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    
+}
+.botao button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background: rgb(0, 87, 128);
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
